@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Improve "Book a Table" button--make it more visually appealing.
+Update recipe videos with custom videos from the coffee shop (or Inteligentsia, Verve, etc.)
+Put logo on Menu so it can be printed and available separately
