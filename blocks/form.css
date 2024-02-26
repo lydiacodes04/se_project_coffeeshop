@@ -7,7 +7,15 @@
   justify-content: center;
   max-width: 385px;
   padding: 0;
+}
+
+.form__fieldset {
   border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 .form__label {
@@ -21,8 +29,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
+  border: 1px solid #838383;
   margin-bottom: 32px;
+  min-height: 60px;
 }
 
 .form__button {
@@ -33,7 +42,11 @@
   height: 60px;
   width: 300px;
   text-align: center;
-  margin-bottom: 32px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  color: #fff;
+  background-color: #2f80ed;
 }
 
 .form__button:hover {
@@ -45,18 +58,18 @@
 }
 
 .form__checkbox {
-  border-radius: 2px;
-  margin: 0;
-}
-
-.form__checkbox-label {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
+  margin: 32px 0 0;
+  padding: 0;
 }
 
-.form__checkbox-itself {
-  margin-right: 12px;
+.form__check {
+  border-radius: 2px;
+  margin: 0 12px 0 0;
   width: 20px;
   height: 20px;
+  padding: 0;
 }

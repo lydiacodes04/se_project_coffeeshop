@@ -48,6 +48,11 @@
 .about__paragraph {
   margin: 0px;
   padding-bottom: 20px;
+  font-family: "Noto serif", "Times New Roman", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 .about__paragraph:last-of-type {
   padding-bottom: 0px;
@@ -64,12 +69,5 @@
 }
 
 .about__circle_animation_blurred {
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   animation: pulsate 1.3s ease-in-out infinite;
 }

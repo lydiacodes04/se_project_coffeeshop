@@ -11,11 +11,14 @@
   min-height: 720px;
   max-height: 800px;
   padding: 30px 80px 40px;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
   max-width: 729px;
   font-size: 60px;
+  font-weight: normal;
   line-height: 72px;
   margin: 183px 0 0;
 }
@@ -46,21 +49,44 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
-  margin-top: auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
+  margin-top: auto;
+  padding: 0px;
 }
 
 .header__hours {
   list-style-type: none;
   color: #838383;
 }
+
+.header__hours-heading {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.header__hours-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .header__address {
   color: #838383;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
 }
