@@ -25,10 +25,11 @@
 }
 
 .form__input {
-  border-radius: 4px;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  box-sizing: border-box;
+  border-radius: 4px;
   border: 1px solid #838383;
   margin-bottom: 32px;
   min-height: 60px;
@@ -40,7 +41,6 @@
   font-size: 16px;
   line-height: 20px;
   height: 60px;
-  width: 300px;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.form__label_type_checkbox {
+.form__label_type {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +66,7 @@
   padding: 0;
 }
 
-.form__checkbox {
+.form__label_type_checkbox {
   border-radius: 2px;
   margin: 0 12px 0 0;
   width: 20px;

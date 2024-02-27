@@ -4,7 +4,9 @@
 
 .card__list {
   list-style-type: none;
-  padding: 0 100px 100px 0;
+  margin: 0;
+  padding-left: 0;
+  gap: 100px;
 }
 
 .card__title {
