@@ -7,7 +7,7 @@
     <meta name="description" content="demo coffee shop website" />
     <meta name="keywords" content="coffee, coffee shop, demo website" />
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -58,14 +58,12 @@
           class="header__image"
         />
         <div class="header__footer">
-          <div class="header__paragraph">
-            <div class="header__hours">
-              <h2 class="header__hours-heading">Hours:</h2>
-              <ul class="header__hours-list">
-                <li>Monday-Friday (10:00-19:00)</li>
-                <li>Saturday-Sunday (11:00-18:00)</li>
-              </ul>
-            </div>
+          <div class="header__hours">
+            <h2 class="header__hours-heading">Hours:</h2>
+            <ul class="header__hours-list">
+              <li>Monday-Friday (10:00-19:00)</li>
+              <li>Saturday-Sunday (11:00-18:00)</li>
+            </ul>
           </div>
           <div class="header__address">
             200 Success Avenue, The Town of Triple Peaks
@@ -153,7 +151,7 @@
                 required
               />
             </fieldset>
-            <fieldset class="form__button">
+            <fieldset class="form__fieldset">
               <button
                 type="submit"
                 class="form__button"
@@ -163,12 +161,12 @@
                 Book a table
               </button>
             </fieldset>
-            <fieldset class="form__checkbox">
-              <label for="checkbox" class="form__label">
+            <fieldset class="form__fieldset">
+              <label for="checkbox" class="form__label_type_checkbox">
                 <input
                   type="checkbox"
                   name="checkbox"
-                  class="form__check"
+                  class="form__checkbox"
                   id="checkbox"
                   value="check"
                   required
@@ -186,7 +184,7 @@
           </p>
           <ul class="menu__cards">
             <li class="card">
-              <p class="card__title">Filter</p>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)<span class="card__list-divider"></span> $1
@@ -209,7 +207,7 @@
               </ul>
             </li>
             <li class="card">
-              <p class="card__title">Espresso</p>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato<span class="card__list-divider"></span>$2.25
@@ -229,7 +227,7 @@
               </ul>
             </li>
             <li class="card">
-              <p class="card__title">Baked Goods</p>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant<span class="card__list-divider"></span> $2

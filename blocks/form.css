@@ -57,7 +57,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.form__checkbox {
+.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +66,7 @@
   padding: 0;
 }
 
-.form__check {
+.form__checkbox {
   border-radius: 2px;
   margin: 0 12px 0 0;
   width: 20px;
