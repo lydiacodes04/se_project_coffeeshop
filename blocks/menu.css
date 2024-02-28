@@ -17,7 +17,7 @@
   text-align: center;
   max-width: 780px;
   margin: 0;
-  padding-top: 100px;
+  padding: 100px 0 24px;
 }
 
 .menu__subtitle {
@@ -28,8 +28,8 @@
   line-height: 30px;
   text-align: center;
   max-width: 780px;
-  margin-bottom: 100px;
-  padding-top: 24px;
+  margin: 0;
+  padding: 0 0 100px;
 }
 
 .menu__cards {
@@ -41,7 +41,3 @@
   padding: 0px;
   gap: 100px;
 }
-
-/*
-tba
-*/
